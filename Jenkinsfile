@@ -1,9 +1,9 @@
-node {
+ins_testnode {
     
    def mvnHome
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
-      git credentialsId: 'Git', url: 'git@github.com:LakshmiAnjinappa/WellsGitLab.git'
+      git credentialsId: 'Git', url: 'git@github.com:LakshmiAnjinappa/jenkins_test.git'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
